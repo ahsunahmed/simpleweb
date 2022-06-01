@@ -1,0 +1,212 @@
+/* Responsive CSS  */
+/* Media Query Starts  */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .area{
+        width: 950px;
+    }
+    .single-service {
+        width: 296px;
+        margin-right: 24px;
+    }
+    .about-left {
+        width: 670px;
+        margin-right: 18px;
+    }
+    .about-menu {
+         width: 262px;
+    }
+    .about-left h4{
+        font-size: 26px;
+    }
+    .about-menu h4 {
+        font-size: 26px;
+    }
+    .about-left p{
+        font-size: 16px;
+    }
+    .about-menu ul li a{
+        font-size: 18px;
+    }
+    .contact-section .contact-form {
+        width: 570px;
+        
+    }
+    .service-page .single-service {
+        width: 219px;
+       
+    }
+    
+    .gallerys .gallery {
+        width: 210px;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 16px;
+    }
+    .gallery iframe:nth-child(4),
+    .gallery iframe:last-child{
+        margin-right: 0;
+    }
+    .footer p{
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .area{
+        width: 750px;
+    }
+    .header .logo{
+        width: 250px;
+    }
+    .menu ul {
+        margin-top: 3px;
+    }
+    .menu ul li{
+        font-size: 16px;
+    }
+    .menu ul li a{
+        padding: 10px 8px;
+    }
+    .services .title h4{
+        font-size: 32px;
+    }
+    .single-service {
+        width: 238px;
+        padding: 10px;
+        margin-right: 18px;
+    }
+    .single-service h4 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .single-service p {
+        font-size: 14px;
+    }
+    .about-left {
+        width: 540px;
+        margin-right: 14px;
+    }
+    .about-menu {
+        float: right;
+        width: 194px;
+    }
+    .about-left h4{
+        font-size: 24px;
+    }
+    .about-menu h4 {
+        font-size: 24px;
+    }
+    .about-left p{
+        font-size: 16px;
+    }
+    .about-menu ul li a{
+        font-size: 16px;
+    }
+    .contact-section .contact-form {
+        width: 100%;
+        
+    }
+    .contact-section .contact-address {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .service-page .single-service {
+        width: 238px;
+    }
+    
+    .single-service:nth-child(4){
+        margin-right: 18px !important;
+    }
+    .single-service:nth-child(3),
+    .single-service:nth-child(6),
+    .single-service:last-child{
+        margin-right: 0;
+    }
+    .gallerys .gallery {
+        width: 175px;
+        margin-right: 16px;
+        margin-left: 0;
+    }
+    .gallery:nth-child(5),
+    .gallery:last-child{
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .area{
+        width: 320px;
+    }
+    .header{
+        display: block;
+    }
+    .header .logo {
+        width: 100%;
+        padding: 0 14px;
+    }
+    .menu{
+        padding: 0 12px;
+    }
+    .menu ul {
+        text-align: left;
+       
+    }
+    .services .title h4 {
+        font-size: 28px;
+        margin: 24px 0;
+    }
+    .single-service {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about-left {
+        width: 100%;
+        margin-bottom: 30px;
+        
+    }
+    .about-left h4,
+    .about-menu h4{
+        font-size: 28px;
+        margin-bottom: 14px;
+    }
+    .about-menu{
+        width: 100%;
+    }
+    .contact-section .contact-form {
+        width: 100%;
+       
+    }
+    
+    .contact-section .contact-address{
+        width: 100%;
+    }
+    .contact-title{
+        margin: 30px 0;
+    }
+    .contact-title h4{
+        font-size: 22px;
+    }
+    .address ul li {
+        font-size: 18px;
+    }
+    .address ul li span{
+        font-size: 18px;
+    }
+    .service-page .single-service{
+        width: 100%;
+    }
+    .gallerys .gallery{
+        width: 100%;
+        margin: 14px 0;
+    }
+    .banner-title h2{
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .area{
+        width: 450px;
+    }
+}

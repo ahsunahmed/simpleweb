@@ -1,0 +1,369 @@
+/* Reset Code  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+h2,h3,h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+
+}
+img{
+    width: 100%;
+}
+.fix:before,
+.fix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.area{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+/* Button CSS  */
+.btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    background-color: tomato;
+    padding: 10px 14px;
+    margin-top: 20px;
+    font-style: italic;
+    display: inline-block;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: orangered;
+
+}
+/* Header CSS  */
+.header {
+    width: 100%;
+    display: flex;
+    background-color: #dddd;
+    padding: 14px;
+}
+.header .logo {
+    float: left;
+    width: 300px;
+    margin-right: 40px;
+}
+.header .logo img{
+    vertical-align: center;
+}
+
+.menu {
+    width: 100%;
+    float: right;
+}
+.menu ul {
+    text-align: right;
+    margin-top: 10px;
+    
+}
+.menu ul li {
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.menu ul li a {
+    display: block;
+    color: #333;
+    padding: 10px 14px;
+    transition: 0.3s;
+    width: 100%;
+}
+.menu ul li a:hover{
+     background-color: tomato;
+     color: #fff;
+}
+
+/* Banner CSS  */
+.banner{
+    margin-bottom: 0;
+}
+.banner img{
+    margin-bottom: 0;
+}
+
+/* Service Section CSS  */
+.services{
+    width: 100%;
+}
+.services .title {
+ 
+    
+}
+.services .title h4 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 40px;
+    color: #333;
+}
+.service{
+    width: 100%;
+   
+}
+.single-service {
+    background-color: teal;
+    width: 313px;
+    padding: 20px;
+    color: #fff;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.single-service:last-child{
+    margin-right: 0;
+}
+.single-service h4{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+.single-service p{
+    font-size: 18px;
+    
+}
+
+/* Service Page CSS  */
+.service-page .single-service{
+    width: 227px;
+    margin-bottom: 30px;
+}
+
+.service-page .single-service:nth-child(4),
+.service-page .single-service:last-child{
+    margin-right: 0;
+}
+
+/* About CSS  */
+.about{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about-left {
+    float: left;
+    width: 700px;
+    margin-right:20px;
+}
+.about-left h4 {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 28px;
+    color: #333;
+}
+.about-left p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.about-left a{}
+.about-menu{
+    float: right;
+    width: 270px;
+    
+}
+.about-menu h4 {
+    font-size: 30px;
+    margin-bottom: 28px;
+    color: #333;
+}
+.about-menu ul{}
+.about-menu ul li {
+    background: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: -7px 0px;
+    padding-left: 22px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.about-menu ul li:last-child{
+    border-bottom: none;
+}
+.about-menu ul li a{
+    color: #333;
+    font-size: 20px;
+    display: block;
+    transition: 0.3s;
+}
+.about-menu ul li a:hover{
+    color: tomato;
+}
+
+/* Footer CSS */
+.footer {
+    background-color: teal;
+    padding: 20px;
+    text-align: center;
+}
+.footer p {
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* Page Banner CSS  */
+.page-banner{
+    width: 100%;
+    padding: 110px 0;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+
+}
+.page-banner::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    opacity: 0.7;
+    z-index: -1;
+}
+.page-banner h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+   
+  
+}
+
+/* Gallery CSS  */
+.gallerys{
+    width: 100%;
+}
+.gallerys .title{}
+.gallerys .title h4 {
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
+    color: #333;
+}
+.gallerys .gallery {
+    width: 234px;
+    float: left;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+.gallery iframe{
+    width: 100%;
+}
+.gallery iframe:nth-child(4),
+.gallery iframe:last-child{
+    margin-right: 0;
+}
+
+/* Contact CSS  */
+.contact-section{
+    width: 100%;
+   
+}
+.contact-section .contact-form {
+    width: 600px;
+    float: left;
+    margin-right: 20px;
+}
+.contact-title{
+    font-size: 30px;
+    color: #333;
+    margin: 50px 0;
+}
+.contact-section .form form{
+    width: 100%;
+}
+.contact-section form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 14px;
+    border: 2px solid #ddd;
+    font-size: 14px;
+}
+.contact-section form input[type="submit"]{
+    background-color: tomato;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    width: auto;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.contact-section form input[type="submit"]:hover{
+    background-color: orangered;
+}
+.contact-section textarea{
+    width: 100%;
+    height: 180px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+.contact-address {
+    float: right;
+    
+}
+.contact-address .address{}
+.address ul{}
+.address ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.address ul li span{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 6px;
+    color: #333;
+    
+}
+.address ul li i{
+    color: #333;
+}
+.address-map{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.address-map iframe {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ddd;
+    padding: 1px;
+}
+
+
